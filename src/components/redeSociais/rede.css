@@ -1,0 +1,30 @@
+a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    text-decoration: none;
+    color: var(--cor-bg);
+    
+    background-color: var(--cor-secundaria);
+    
+    border-radius: 12px;
+    
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+    padding: 18px;
+    margin: 15px;
+    
+    position: relative;
+    
+    transition: 0.5s ease-in;
+}
+a:hover{
+    transform: scale(1.03);
+}
+
+.conteudo_links {
+    max-width: 800px;
+    margin: auto;
+}
